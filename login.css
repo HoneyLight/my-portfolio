@@ -1,0 +1,129 @@
+*{padding:0px; margin:0px}
+
+.navigation{
+    background-color:rgb(9, 21, 183);
+    display: flex;
+    width:100%; 
+    height: 50px;
+}
+.navigation .menu{
+    display: none; height: 30px; padding-top: 10px;
+}
+.nav-menu{
+    display:flex; 
+    width:40%; 
+    justify-content:space-between;
+    list-style: none; 
+    padding-top:10px ; 
+    margin-left: 30px; 
+    margin-right: 15px;
+}
+.nav-logo{
+    width:30%; 
+    padding-top: 10px;
+}
+.nav-logo a{
+    color:white;
+    text-decoration:none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.nav-menu a{
+    color:white;
+    text-decoration:none; 
+    font-size:20px;
+}
+.nav-input{
+    width:30%; 
+    padding-top: 10px;
+}
+.nav-input input{
+    width:300px; 
+    height:30px;
+}
+/* main */
+body{
+    background-color: aliceblue;
+}
+main{
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+.login-box{
+    width: 360px;
+    height:280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: none;
+    background-color: rgb(9, 21, 183);
+    color: white;
+    font-size: 18px;
+}
+.p2{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.p2 a{
+    color:white ;
+    text-decoration: none;
+}
+/* footer */
+footer{
+    background-color: aliceblue;
+     padding: 5px;}
+footer hr{
+    padding: 1px;
+     background-color: rgb(9, 21, 183);
+    }
+.socials{
+    display: flex; 
+    justify-content: center;
+}
+
+@media(max-width:425px) {
+    .nav-menu{display: none;}
+    .navigation .menu{display: block; margin-left: auto; height: 30px; padding-top: 3px;}
+    .navigation{height: 50px;}
+    .nav-logo {padding-top: 0; width: 40%;}
+}
+@media(max-width:320px) {
+    .nav-menu{display: none;}
+    .navigation .menu{display: block; margin-left: auto; height: 30px; padding-top: 3px;}
+    .navigation{height: 50px;}
+    .nav-logo {padding-top: 0; width: 50%;}
+}
